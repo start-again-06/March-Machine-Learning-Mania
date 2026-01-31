@@ -1,40 +1,45 @@
-# March-Machine-Learning-Mania
-📊 Predictive Probability Distribution Visualization
+# March Machine Learning Mania  
+## Predictive Probability Distribution Visualization
 
-This repository contains a Python script for visualizing the distribution of predicted probabilities using Seaborn and Matplotlib. 🖼️
+## Overview
+This repository contains a Python script for visualizing the distribution of predicted probabilities using **Seaborn** and **Matplotlib**. The visualization helps analyze model confidence and probability calibration in classification tasks.
 
-✨ Features
+---
 
-📈 Creates a histogram of predicted probabilities using sns.histplot from Seaborn.
+## Features
+- Generates a histogram of predicted probabilities using `seaborn.histplot`
+- Supports Kernel Density Estimation (KDE) for smooth distribution visualization
+- Uses Matplotlib for figure sizing and plot customization
+- Clearly labeled axes and descriptive plot titles for interpretability
 
-📊 Implements Kernel Density Estimation (KDE) for smoother visualization.
+---
 
-🎨 Uses Matplotlib to configure figure size and enhance plot aesthetics.
+## Prerequisites
+Ensure the following Python libraries are installed:
+- **Matplotlib** – Plot rendering and customization
+- **Seaborn** – Statistical visualization (histograms and KDE)
+- **Pandas** – Dataset handling and processing
 
-🏷️ Labels axes and provides a descriptive title for better interpretation.
+## Usage
+- Ensure your dataset is loaded into a Pandas DataFrame.
+- The DataFrame should contain a column with predicted probability values.
+- Run the script to generate and display the probability distribution plot.
+- Adjust parameters such as bin size, figure dimensions, and KDE settings to refine the visualization.
 
-🔧 Prerequisites
+---
 
-Ensure you have the required Python libraries installed:
+## Applications
+- Model confidence analysis
+- Probability calibration inspection
+- Classification model evaluation
+- Kaggle competition analysis and reporting
 
-📦 Matplotlib for plot rendering and figure customization.
+---
 
-📦 Seaborn for statistical data visualization, including histograms and KDE plots.
+## Contributing
+Contributions are welcome. Feel free to open an issue or submit a pull request to improve functionality or visualization options.
 
-📦 Pandas for handling and processing the dataset.
+---
 
-🚀 Usage
-
-Ensure your dataset is in a Pandas DataFrame format with a column containing predicted probability values. 📄
-
-Use the script to generate and display the probability distribution plot using Seaborn and Matplotlib. 🖥️
-
-Adjust bin size, figure size, and KDE settings to refine the visualization. 🎛️
-
-📜 License
-
-This project is licensed under the MIT License. ✅
-
-🤝 Contributions
-
-Contributions are welcome! Feel free to open an issue or submit a pull request. 🔧
+## License
+MIT License. Free to use, modify, and distribute for academic and research purposes.
